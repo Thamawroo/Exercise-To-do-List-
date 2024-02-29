@@ -35,7 +35,7 @@ const App: React.FC = () => {
 
   return (
     <ChakraProvider>
-      <Container mt={5} bg="#C2D3B4" p={5} borderRadius="xlg" boxShadow="md">
+      <Container mt={5} bg="#C2D3B4" p={5} borderRadius="lg" boxShadow="md">
         <Heading textAlign="center" mb={4}>Chores To-do List</Heading>
         {chores.map((chore, index) => (
           <div key={index} style={{ marginBottom: '8px', display: 'flex', alignItems: 'center' }}>
